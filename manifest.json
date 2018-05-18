@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Github Recover",
+  "version": "0.0.1",
+  "description": "Get your github gack",
+
+  "author": "Ricky Tan",
+  "content_scripts": [{
+    "matches": ["https://github.com/"],
+    "css": ["fix.css"]
+  }]
+}
